@@ -56,3 +56,16 @@ void galgje5() {
     printf("= \n");
     printf("= \n");
 }
+
+
+//5e fasen functie gemaakt
+void galgje6() {
+    printf("============ \n");
+    printf("=   | \n");
+    printf("=   | \n");
+    printf("=   0 \n");
+    printf("=  =|= \n");
+    printf("=   | \n");
+    printf("=   \n");
+    printf("= \n");
+}
