@@ -3,7 +3,7 @@
 //Standaard lib toegevoegt
 #include <stdio.h>
 
-//Eersten fasen
+//Laatste fasen...
 void galgje1() {
     printf("============ \n");
     printf("=    | \n");
@@ -13,4 +13,8 @@ void galgje1() {
     printf("=    | \n");
     printf("=   - - \n");
     printf("= \n");
+}
+//Eerste fasen
+void galgje2() {
+    printf("============");
 }
