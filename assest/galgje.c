@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 //Eersten fasen
-void galgje() {
+void galgje1() {
     printf("============ \n");
     printf("=    |");
     printf("=    |");
