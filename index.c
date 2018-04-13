@@ -6,6 +6,8 @@
 
 //main functie
 int main(int argc, char **argv){
+    //Kansen
+    int kansen = 5;
     //Weet als het in loop zit :)
     int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
