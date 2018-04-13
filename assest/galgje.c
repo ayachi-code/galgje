@@ -1,5 +1,6 @@
-//Standaard bib geimporteerd
+//invoer uitvoer
 #include <stdlib.h>
+//Standaard lib toegevoegt
 #include <stdio.h>
 
 //Eersten fasen
