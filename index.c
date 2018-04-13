@@ -28,6 +28,8 @@ int main(int argc, char **argv){
             break;
         } else {
             printf("Jammer : ( probeer nog eens \n ");
+            kansen -= 1;
+            printf("%d",kansen);
         }
         //Print aantal streepjes van woord
         for (int i = 0;i < lengte_van_strint;i++) {
