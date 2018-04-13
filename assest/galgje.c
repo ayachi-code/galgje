@@ -16,5 +16,17 @@ void galgje1() {
 }
 //Eerste fasen
 void galgje2() {
-    printf("============");
+    printf("============ \n");
+}
+
+//tweede fasen
+void galgje3() {
+    printf("============ \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
 }
