@@ -24,7 +24,6 @@ int main(int argc, char **argv){
         for (int i = 0;i < lengte_van_strint;i++) {
             printf("- ");
         }
-        break;
     }
     return 0;
 }
