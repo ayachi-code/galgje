@@ -5,6 +5,7 @@
 
 //main functie
 int main(int argc, char **argv){
-    galgje1();
+    //input_van_gebruiker met buffer van 5000
+    char input_van_gebruiker[5000];
     return 0;
 }
