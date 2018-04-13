@@ -5,6 +5,8 @@
 
 //main functie
 int main(int argc, char **argv){
+    //Weet als het in loop zit :)
+    int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
     char geheimen_woord[] = "mensenhoi";
     //input_van_gebruiker met buffer van 5000
