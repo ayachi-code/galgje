@@ -20,6 +20,10 @@ int main(int argc, char **argv){
         scanf("%s",input_van_gebruiker);
         //Lengte van geheimen woord opgeslagen in int
         int lengte_van_strint = strlen(geheimen_woord);
+        //Print aantal streepjes van woord
+        for (int i = 0;i < lengte_van_strint;i++) {
+            printf("- ");
+        }
         break;
     }
     return 0;
