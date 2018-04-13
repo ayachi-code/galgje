@@ -3,5 +3,12 @@
 
 //Eersten fasen
 void galgje() {
-    
+    printf("============ \n");
+    printf("=    |");
+    printf("=    |");
+    printf("=    0");
+    printf("=   =|=   ");
+    printf("=    |");
+    printf("=   - -");
+    printf("=");
 }
