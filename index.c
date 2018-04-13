@@ -24,6 +24,8 @@ int main(int argc, char **argv){
         if (!strcmp(input_van_gebruiker,geheimen_woord)) {
             printf("Goed zo je hebt het woord geraden... \n");
             break;
+        } else {
+            printf("Jammer : ( probeer nog eens \n ");
         }
         //Print aantal streepjes van woord
         for (int i = 0;i < lengte_van_strint;i++) {
