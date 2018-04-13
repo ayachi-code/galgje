@@ -43,3 +43,16 @@ void galgje4() {
     printf("= \n");
     printf("= \n");
 }
+
+
+//Vierden fasen functie gemaakt
+void galgje5() {
+     printf("============ \n");
+    printf("=   | \n");
+    printf("=   | \n");
+    printf("=   0 \n");
+    printf("=  =|= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+}
