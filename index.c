@@ -13,7 +13,11 @@ int main(int argc, char **argv){
     char input_van_gebruiker[5000];
     //Begroeting gemaakt
     printf("Welkom bij galgje......... ALPHA versie \n");
-    //Leest input van gebruiker en input word daarna opgeslagen in variablen input van gebruiker
-    scanf("%s",input_van_gebruiker);
+    //loopt als af 0 is
+    while (af == 0) {
+        //Leest input van gebruiker en input word daarna opgeslagen in variablen input van gebruiker
+        scanf("%s",input_van_gebruiker);
+        break;
+    }
     return 0;
 }
