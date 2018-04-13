@@ -30,3 +30,16 @@ void galgje3() {
     printf("= \n");
     printf("= \n");
 }
+
+
+//Derde fasen gemaakt
+void galgje4() {
+    printf("============ \n");
+    printf("=   | \n");
+    printf("=   | \n");
+    printf("=   0 \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+    printf("= \n");
+}
