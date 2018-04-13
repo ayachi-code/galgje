@@ -20,6 +20,11 @@ int main(int argc, char **argv){
         scanf("%s",input_van_gebruiker);
         //Lengte van geheimen woord opgeslagen in int
         int lengte_van_strint = strlen(geheimen_woord);
+        //Als woord in een keer geraden is
+        if (!strcmp(input_van_gebruiker,geheimen_woord)) {
+            printf("Goed zo je hebt het woord geraden... \n");
+            break;
+        }
         //Print aantal streepjes van woord
         for (int i = 0;i < lengte_van_strint;i++) {
             printf("- ");
