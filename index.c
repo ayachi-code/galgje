@@ -38,7 +38,7 @@ int main(int argc, char **argv){
         if (kansen <= 0) {
             printf("sorry je bent af \n");
             break;
-        }      
+        }  
         //Print aantal streepjes van woord
         for (int i = 0;i < lengte_van_strint;i++) {
             printf("- ");
