@@ -11,7 +11,7 @@ int main(int argc, char **argv){
     //Weet als het in loop zit :)
     int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
-    char geheimen_woord[] = "mensenhoi";
+    char geheimen_woord[] = "mensen";
     //input_van_gebruiker met buffer van 5000
     char input_van_gebruiker[5000];
     //Begroeting gemaakt
@@ -30,6 +30,10 @@ int main(int argc, char **argv){
             printf("Jammer : ( probeer nog eens \n ");
             kansen -= 1;
             printf("%d",kansen);
+        }
+        if (kansen <= 0) {
+            printf("je bent af \n");
+            break;
         }
         //Print aantal streepjes van woord
         for (int i = 0;i < lengte_van_strint;i++) {
