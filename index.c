@@ -25,20 +25,20 @@ int eentje_voor_eentje(char woord[200]) {
 }
 //main functie
 int main(int argc, char **argv){
+
     //Kansen
     int kansen = 5;
     //Weet als het in loop zit :)
     int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
     char geheimen_woord[] = "hallo";
-    eentje_voor_eentje(geheimen_woord);
-    //input_van_gebruiker met buffer van 5000
-    char input_van_gebruiker[5000];
+    //input_van_gebruiker met buffer van 5000 bilal
+    char input_van_gebruiker[100];
     //Begroeting gemaakt
     printf("Welkom bij galgje......... ALPHA versie \n");
     //Zegt dat je een letter moet typen
     printf("Type een letter: ");
-    //loopt als af 0 is
+    //loopt als af 0
     while (af == 0) {
         //Leest input van gebruiker en input word daarna opgeslagen in variablen input van gebruiker
         scanf("%s",input_van_gebruiker);
@@ -54,6 +54,10 @@ int main(int argc, char **argv){
                 kansen -= 1;
                 printf("%d",kansen);
             }
+        } else {
+            //printf("%s",input_van_gebruiker);
+            char* return_waarde = strchr(geheimen_woord,input_van_gebruiker);
+            printf("%s",return_waarde);
         }
         if (kansen <= 0) {
             printf("sorry je bent af \n");
