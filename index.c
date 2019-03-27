@@ -4,7 +4,6 @@
 #include <string.h>
 
 int raden(char woord[100]) {
-    //printf("%s",woord);
     char input[5000];
     printf("Type het woord: ");
     scanf("%s",input);
@@ -39,7 +38,8 @@ int main(int argc, char **argv){
         //legte van de input van de gebruiker
         int lengte_van_input = strlen(input_van_gebruiker);
         if (!strcmp(input_van_gebruiker,"?")) {
-            raden(geheimen_woord);
+            int test = raden(geheimen_woord);
+            printf("%d",test);
         }
         if (kansen <= 0) {
             printf("sorry je bent af \n");
