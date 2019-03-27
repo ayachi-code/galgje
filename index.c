@@ -11,7 +11,7 @@ int main(int argc, char **argv){
     //Weet als het in loop zit :)
     int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
-    char geheimen_woord[] = "issam";
+    char geheimen_woord[] = "hallo";
     //input_van_gebruiker met buffer van 5000
     char input_van_gebruiker[5000];
     //Begroeting gemaakt
@@ -33,6 +33,22 @@ int main(int argc, char **argv){
         } else {
             printf("Jammer : ( probeer nog eens \n ");
             kansen -= 1;
+            if (kansen == 4) {
+                galgje2();
+            } else if (kansen == 3)
+            {
+                galgje3();
+            } else if(kansen == 2)
+            {
+                galgje4();
+            } else if(kansen == 1)
+            {
+                galgje5();
+            } else if(kansen == 0)
+            {
+                galgje1();
+            }
+            
             printf("%d",kansen);
         }       
         if (kansen <= 0) {
