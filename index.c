@@ -23,6 +23,11 @@ int main(int argc, char **argv){
     int af = 0;
     //Geheimen woord gemaakt opgeslagen in een char 
     char geheimen_woord[] = "hallo";
+    int lengte_geheim = strlen(geheimen_woord);
+    for (int i = 0; i < lengte_geheim;i++) {
+            char letter = geheimen_woord[i];
+            printf("%c \n",letter);
+    }
     //input_van_gebruiker met buffer van 5000
     char input_van_gebruiker[5000];
     //Begroeting gemaakt
