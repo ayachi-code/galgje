@@ -41,6 +41,9 @@ int main(int argc, char **argv){
             int test = raden(geheimen_woord);
             if (test == 0) {
                 break;
+            } else if(test == 1) {
+                kansen -= 1;
+                printf("%d",kansen);
             }
         }
         if (kansen <= 0) {
