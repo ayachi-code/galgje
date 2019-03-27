@@ -8,7 +8,7 @@ int raden(char woord[100]) {
     printf("Type het woord: ");
     scanf("%s",input);
     if (!strcmp(input,woord)) {
-        printf("Je hebt het woord geraden ! ");
+        printf("Je hebt het woord geraden ! \n");
         return 0;
     } else {
         printf("He he je hebt het woord niet geraden ");
@@ -39,7 +39,9 @@ int main(int argc, char **argv){
         int lengte_van_input = strlen(input_van_gebruiker);
         if (!strcmp(input_van_gebruiker,"?")) {
             int test = raden(geheimen_woord);
-            printf("%d",test);
+            if (test == 0) {
+                break;
+            }
         }
         if (kansen <= 0) {
             printf("sorry je bent af \n");
