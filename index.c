@@ -4,8 +4,17 @@
 #include <string.h>
 
 int raden(char woord[100]) {
-    printf("%s",woord);
-    return 0;
+    //printf("%s",woord);
+    char input[5000];
+    printf("Type het woord: ");
+    scanf("%s",input);
+    if (!strcmp(input,woord)) {
+        printf("Je hebt het woord geraden ! ");
+        return 0;
+    } else {
+        printf("He he je hebt het woord niet geraden ");
+        return 1;
+    }
 }
 //main functie
 int main(int argc, char **argv){
