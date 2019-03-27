@@ -3,7 +3,10 @@
 #include "./assest/galgje.c"
 #include <string.h>
 
-
+int raden(char woord[100]) {
+    printf("%s",woord);
+    return 0;
+}
 //main functie
 int main(int argc, char **argv){
     //Kansen
@@ -26,31 +29,9 @@ int main(int argc, char **argv){
         int lengte_van_strint = strlen(geheimen_woord);
         //legte van de input van de gebruiker
         int lengte_van_input = strlen(input_van_gebruiker);
-        //Als woord in een keer geraden is
-        if (!strcmp(input_van_gebruiker,geheimen_woord)) {
-            printf("Goed zo je hebt het woord geraden... \n");
-            break;
-        } else {
-            printf("Jammer : ( probeer nog eens \n ");
-            kansen -= 1;
-            if (kansen == 4) {
-                galgje2();
-            } else if (kansen == 3)
-            {
-                galgje3();
-            } else if(kansen == 2)
-            {
-                galgje4();
-            } else if(kansen == 1)
-            {
-                galgje5();
-            } else if(kansen == 0)
-            {
-                galgje1();
-            }
-            
-            printf("%d",kansen);
-        }       
+        if (!strcmp(input_van_gebruiker,"?")) {
+            raden(geheimen_woord);
+        }
         if (kansen <= 0) {
             printf("sorry je bent af \n");
             break;
